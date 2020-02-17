@@ -28,7 +28,7 @@ public class RudeQuestions {
     System.out.print( "Last question, " + name + ". What color is your car? " );
     car = keyboard.next();
 
-    System.out.println( "Ahh, " + name +"... your car is " + car + "?! What a terrible color choice!");
+    System.out.println( "Ahh, " + name + "... your car is " + car + "?! What a terrible color choice!");
     System.out.print( "Well, thanks for answering my rude questions, " );
     System.out.println( name + "." );
 
