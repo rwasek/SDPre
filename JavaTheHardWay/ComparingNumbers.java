@@ -34,4 +34,9 @@ public class ComparingNumbers {
 
 /* 1. The line "Hey" still prints w/o curly braces, even if (first != second) is false and skipped
       because it is technically just an extra line of code that isn't apart of
-      the body of the if statement without curly braces */
+      the body of the if statement without curly braces
+   2. Everything works as expected if I remove the other if statement curly braces
+      since their bodies only have one line of code. Keeping curly braces around
+      the final if statement with the "Hey." line also works because it is
+      incorporating both lines into the body with the curly braces.
+*/
