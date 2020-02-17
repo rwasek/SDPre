@@ -42,8 +42,8 @@ public class BMICategories {
     }
   }
 }
-/* Changing the "else if" from Line 28 into "if" gives you two separate if statements
+/* Changing the "else if" from Line 28 into "if" gives you two separate if statement chains
    and if you have anything less than 18.5 for BMI, both will print out since they
-   are both technically true at that point. So even if you are 7'2" and 80 lbs
-   you will be told you are very severely underweight and normal weight at the
-   same time which is broken. */
+   are both technically true at that point. The new "if" does not care about the prior
+   if/else statements. So even if you are 7'2" and 80 lbs you will be told you are very severely
+   underweight and normal weight at the same time which is broken. */
