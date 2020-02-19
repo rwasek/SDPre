@@ -7,7 +7,7 @@ public class HighLow {
 
     secret = 1 + (int)( 100*Math.random() );
 
-    System.out.println(secret); 
+    // System.out.println(secret);
     // Remove the comment on the above line to cheat!
 
     System.out.println("I'm thinking of a number between 1-100.");
