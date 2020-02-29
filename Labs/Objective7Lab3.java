@@ -9,19 +9,21 @@ public class Objective7Lab3 {
       printMenu();
       selection = scanner.nextInt();
 
-      if (selection == 1) {
+      if (selection == 1)
         System.out.println("Hello Human");
 
-      }
-      if (selection == 2) {
+
+      if (selection == 2)
         System.out.println("Apples, Bananas, Coconuts");
-        
-      }
+
+
       if (selection == 3) {
         System.out.println("Goodbye");
         break;
       }
+
     }
+
     scanner.close();
   }
 
